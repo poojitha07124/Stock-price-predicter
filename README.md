@@ -11,7 +11,6 @@
 <p align="center">
   <b>An intelligent and secure web-based stock price prediction system using LSTM deep learning.</b>
 </p>
----
 
 ## Project Overview
 
@@ -126,11 +125,7 @@ The application follows a **three-tier architecture**:
                  │ • Gmail SMTP            │
                  │ • users.json            │
                  └─────────────────────────┘
-```
 
-The report describes the Presentation, Logic, and Data tiers as separate modules for easier maintenance and future extension.
-
----
 
 ## 🔄 Project Workflow
 
@@ -166,7 +161,6 @@ User Opens Application
    BUY / SELL / HOLD Signal
           ↓
  Charts + Prediction Dashboard
-```
 
 ## Data Preprocessing
 
@@ -184,8 +178,6 @@ The stock data is processed before being provided to the LSTM model.
 8. Inverse-transform predictions back to the original price scale.
 
 The implementation uses an **80:20 training/testing split** and rolling windows for LSTM input preparation.
-
----
 
 ## Technologies Used
 
@@ -206,8 +198,6 @@ The implementation uses an **80:20 training/testing split** and rolling windows 
 | 💻 VS Code            | Development environment    |
 
 These technologies are documented in the project's technical requirements and implementation report.
-
----
 
 ## Application Dashboard
 
@@ -244,9 +234,7 @@ The project report documents the Sign-Up page, Login page, OTP page, prediction 
 
 The project report specifies Python 3.10+ and the required Python libraries and external services.
 
----
-
-## Installation
+### Installation
 
 ### 1. Clone the Repository
 
@@ -291,9 +279,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
 The application will open in your browser.
-
 ---
 
 ## 🔑 Environment Variables
@@ -301,7 +287,6 @@ The application will open in your browser.
 For secure configuration, the project uses environment variables for sensitive credentials.
 
 Example:
-
 ```text
 APP_GMAIL_USER=your_email@gmail.com
 APP_GMAIL_APP_PASSWORD=your_app_password
@@ -310,10 +295,7 @@ GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 GOOGLE_REDIRECT_URI=your_redirect_uri
 ```
-
 > Never upload passwords, API credentials, OAuth secrets, or Gmail App Passwords to GitHub.
-
----
 
 ## 📈 Results
 
@@ -331,40 +313,16 @@ The developed system successfully integrates:
 
 The project report states that predicted prices closely followed the real market trend during evaluation and uses RMSE as the primary prediction-error metric.
 
----
-
 ## 🔮 Future Enhancements
 
 The project can be extended with:
 
 * 📅 Multi-step stock forecasting
-* 📊 Portfolio-level analysis
 * 📰 Financial news sentiment analysis
 * 📱 Mobile application deployment
-* ☁️ Cloud deployment and scalability
 * 🔔 Email/SMS/mobile price alerts
 * 🧠 Explainable AI
-* 🔄 Automated model retraining
-* 📈 Multi-feature prediction using Open, High, Low and Volume
-* 🗄️ Managed database integration
-
 These enhancements are identified in the project report as possible future extensions.
-
----
-
-## 🎓 Academic Project
-
-**Project Title:** Stock Price Prediction Using Machine Learning
-
-**Technology:** Python, TensorFlow/Keras, LSTM, Streamlit
-
-**Domain:** Machine Learning / Deep Learning / Financial Technology
-
-**Institution:** Seshadripuram College, Bengaluru
-
-**Department:** Department of Computer Application
-
----
 
 ## 👩‍💻 Author
 
@@ -382,14 +340,4 @@ These enhancements are identified in the project report as possible future exten
   <a href="https://github.com/poojitha07124">
     <img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=00FF66" />
   </a>
-</p>
-
----
-
-<p align="center">
-  <b>⭐ If you find this project useful, consider giving the repository a star!</b>
-</p>
-
-<p align="center">
-  Made with ❤️ using Python, Machine Learning & Streamlit
 </p>
